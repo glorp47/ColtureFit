@@ -1,4 +1,4 @@
-# FresherNote
+# ColtureFit
 
 [Heroku link][heroku] 
 
