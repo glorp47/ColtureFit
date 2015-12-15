@@ -37,7 +37,6 @@ fan_id      | integer   | not null, foreign key (references fans), indexed
 title       | string    | not null, indexed
 long_bio    | text      |
 date_made   | datetime  | not null, indexed
-genre       | text      |
 link_src    | string    | 
 
 ## song 
