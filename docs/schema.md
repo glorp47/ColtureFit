@@ -46,10 +46,9 @@ column name | data type | details
 id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed
 album_id    | integer   | foreign key (references albums), indexed
-title       | string    | 
+title       | string    | not null
 long_bio    | text      |
 date_made   | datetime  |
-genre       | text      |
 link_src    | string    | 
 
 ## video
