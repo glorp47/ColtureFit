@@ -79,7 +79,7 @@ id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed
 title       | string    | not null
 publisher   | string    | not null
-long_bio    | text      | not null
+body        | text      | not null
 date_made   | datetime  |
 link_src    | string    | 
 
