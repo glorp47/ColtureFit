@@ -1,8 +1,8 @@
 # Schema Information
 
 ## fan
-column name | data type | details
-------------|-----------|-----------------------
+   column name | data type | details
+---------------|-----------|-----------------------
 id             | integer   | not null, primary key
 email          | string    | not null, indexed, unique
 username       | string    | not null, indexed
@@ -11,6 +11,7 @@ session_token  | string    | not null, indexed
 short_bio      | string    | 
 long_bio       | text      | 
 location_zip   | integer   | not null
+account_type   | string    | not null, indexed, inclusion in %w(fan band venue)
 
 ## band
 column name | data type | details
