@@ -38,7 +38,7 @@ title       | string    | not null, indexed
 long_bio    | text      |
 date_made   | datetime  | not null, indexed
 genre       | text      |
-link_src    |           | 
+link_src    | string    | 
 
 ## song 
 column name | data type | details
