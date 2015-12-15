@@ -33,7 +33,7 @@ geo_lng     | decimal   |
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-fan_id      | integer   | not null, foreign key (references fans), indexed
+band_id     | integer   | not null, foreign key (references bands), indexed
 title       | string    | not null, indexed
 long_bio    | text      |
 date_made   | datetime  | not null, indexed
@@ -43,7 +43,7 @@ link_src    | string    |
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-fan_id      | integer   | not null, foreign key (references fans), indexed
+band_id     | integer   | not null, foreign key (references fans), indexed
 album_id    | integer   | foreign key (references albums), indexed
 title       | string    | not null, indexed
 long_bio    | text      |
@@ -54,7 +54,7 @@ link_src    | string    |
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-fan_id      | integer   | not null, foreign key (references fans), indexed
+band_id     | integer   | not null, foreign key (references fans), indexed
 album_id    | integer   | foreign key (references albums), indexed
 title       | string    | not null, indexed
 long_bio    | text      |
