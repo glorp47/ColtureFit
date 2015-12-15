@@ -88,11 +88,17 @@ link_src    | string    |
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-band_id     | integer   | not null, foreign key (references bands), indexed
 venue_id    | integer   | not null, foreign key (references venues), indexed
 title       | string    | not null, indexed
 date        | datetime  | not null, indexed
 description | text      | not null
+
+## booked_act
+column name | data type | details
+------------|-----------|-----------------------
+id          | integer   | not null, primary key
+band_id     | integer   | not null, foreign key (references bands), indexed
+gig_id    | integer   | not null, foreign key (references gigs), indexed
 
 
 ## favorite
