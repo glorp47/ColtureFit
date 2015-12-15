@@ -10,7 +10,7 @@ password_digest| string    | not null
 session_token  | string    | not null, indexed
 short_bio      | string    | 
 long_bio       | text      | 
-location       | zip       | not null
+location       | integer   | not null
 
 ## band
 column name | data type | details
