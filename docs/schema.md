@@ -18,7 +18,7 @@ column name | data type | details
 id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed, unique
 discography | text      |
-genre       | text      |
+genre       | text      | indexed
 members     | text      |
 
 ## venue
