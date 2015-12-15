@@ -34,9 +34,9 @@ column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed
-title       | string    | 
+title       | string    | not null, indexed
 long_bio    | text      |
-date_made   | datetime  |
+date_made   | datetime  | not null, indexed
 genre       | text      |
 link_src    |           | 
 
@@ -46,9 +46,9 @@ column name | data type | details
 id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed
 album_id    | integer   | foreign key (references albums), indexed
-title       | string    | not null
+title       | string    | not null, indexed
 long_bio    | text      |
-date_made   | datetime  |
+date_made   | datetime  | not null, indexed
 link_src    | string    | 
 
 ## video
@@ -57,9 +57,9 @@ column name | data type | details
 id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed
 album_id    | integer   | foreign key (references albums), indexed
-title       | string    | 
+title       | string    | not null, indexed
 long_bio    | text      |
-date_made   | datetime  |
+date_made   | datetime  | not null, indexed
 link_src    | string    | 
 
 
@@ -90,8 +90,8 @@ column name | data type | details
 id          | integer   | not null, primary key
 band_id     | integer   | not null, foreign key (references bands), indexed
 venue_id    | integer   | not null, foreign key (references venues), indexed
-title       | string    | not null
-date        | datetime  | not null
+title       | string    | not null, indexed
+date        | datetime  | not null, indexed
 description | text      | not null
 
 
