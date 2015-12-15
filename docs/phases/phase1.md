@@ -19,9 +19,9 @@
 
 ### Controllers
 * FanController (create, index, new)
-* Api::SessionsController (create, new, destroy)
-* Api::BandController (create, new, index, show, update)
-* Api::VenueController (create, new, index, show, update)
+* SessionsController (create, new, destroy)
+* BandController (create, new, index, show, update)
+* VenueController (create, new, index, show, update)
 * Api::GigController (create, new, index, show, update)
 * Api::AlbumController (create, new, index, show, update)
 * Api::SongController (create, new, index, show, update)
