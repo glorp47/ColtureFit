@@ -54,7 +54,7 @@ link_src    | string    |
 column name | data type | details
 ------------|-----------|-----------------------
 id          | integer   | not null, primary key
-band_id     | integer   | not null, foreign key (references fans), indexed
+fan_id      | integer   | not null, foreign key (references fans), indexed
 album_id    | integer   | foreign key (references albums), indexed
 title       | string    | not null, indexed
 long_bio    | text      |
