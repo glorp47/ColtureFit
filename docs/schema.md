@@ -29,6 +29,7 @@ id          | integer   | not null, primary key
 fan_id      | integer   | not null, foreign key (references fans), indexed, unique
 geo_lat     | decimal   |
 geo_lng     | decimal   |
+address     | string    |
 
 ## album
 column name | data type | details
