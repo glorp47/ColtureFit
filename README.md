@@ -7,7 +7,7 @@
 ## Minimum Viable Product
 -------------- 
 ColtureFit is a web application inspired by ReverbNation and Sonicbids built using Ruby on Rails
-and React.js to help musicians to connect with fans and book Gig at venues. CultureFit allows users to:
+and React.js to help musicians to connect with fans and book Gig at venues. ColtureFit allows users to:
 
 <!-- This is a Markdown checklist. Use it to keep track of your progress! -->
 
